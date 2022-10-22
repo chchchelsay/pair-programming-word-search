@@ -1,3 +1,5 @@
+//@Gozi1 @kgislason
+
 const wordSearch = (letters, word) => {
     const horizontalJoin = letters.map(ls => ls.join(''));
     const verticalJoin = verticalJoinner(letters).map(ls => ls.join(''));
